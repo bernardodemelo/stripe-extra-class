@@ -7,6 +7,7 @@ Payment Methods Class done with Stripe / Stripe Elements. Workshop/lesson for Ap
 <br>
 
 ### Instructions 
+
 <img src="https://media.tenor.com/qPZM6yp3Y6wAAAAC/the-office-michael-scott.gif">
 <ol>
   <li> Go to <a href="https://stripe.com">Stripe Homepage</a> and Sign Up.</li>
@@ -19,6 +20,7 @@ Payment Methods Class done with Stripe / Stripe Elements. Workshop/lesson for Ap
 <br>
 
 ### Useful Links 
+
 <ul>
   <li> <a href="https://stripe.com">Stripe Homepage</a></li>
   <li> <a href="https://stripe.com/en-pt/payments/elements"> Stripe Elements (UI Library) </a> </li>
