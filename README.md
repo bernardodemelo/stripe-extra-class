@@ -1,4 +1,4 @@
-### Stripe Extra Class 
+## Stripe Extra Class 
 <hr>
 Payment Methods Class done with Stripe / Stripe Elements. Workshop/lesson for April 2023 Web Dev Course at Ironhack Portugal.
 <hr>
