@@ -11,7 +11,7 @@ Payment Methods Class done with Stripe / Stripe Elements. Workshop/lesson for Ap
 <p align="center">
 <img src="https://media.tenor.com/qPZM6yp3Y6wAAAAC/the-office-michael-scott.gif">
 </p>
-
+<br>
 ### Instructions
 <ol>
   <li> Go to <a href="https://stripe.com">Stripe Homepage</a> and Sign Up.</li>
