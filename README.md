@@ -19,7 +19,7 @@ Payment Methods Class done with Stripe / Stripe Elements. Workshop/lesson for Ap
   <li> Once you've registered, go to Stripe's API Keys Section and copy Publishable and Secret Keys.</li>
   <li> Paste the Publishable Key in the project-management-client/Pages/Payment/index.jsx PUBLIC_KEY variable</li>
   <li> Paste the Secret Key in the project-management-server/.env file in the STRIPE_SECRET_TEST variable</li>
-  <li> Import the dundies.json inside the 'dundies' collection on your MongoDBCompass</li>
+  <li> Import the dundies.json inside the _'dundies'_ collection on your MongoDBCompass</li>
   <li> Test the App with one of the Testing Cards that you have on the the Testing Cards List (in Useful Links). </li>
 </ol>
 
