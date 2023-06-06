@@ -23,6 +23,7 @@ function Home() {
 	return (
     <div>
     {dundies.map((dundie) => {
+      // if it's not paid, return a dundie, else do not return anything. 
         return dundie.paid? null: 
         (
         <div className="app-main-div" key={dundie._id}>

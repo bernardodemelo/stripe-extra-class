@@ -5,7 +5,8 @@ import axios from 'axios';
 import {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 
-const PUBLIC_KEY = "";
+// Public Key to be published 
+const PUBLIC_KEY = ""
 
 const stripeTestPromise = loadStripe(PUBLIC_KEY);
 
@@ -30,6 +31,7 @@ function Payment() {
     getDundie();
   }, [] );
 	return (
+    // Elements Stripe loaded with Test Mode
 		<Elements stripe={stripeTestPromise}>
 			<PaymentForm prize={dundie} />
 		</Elements>

@@ -43,10 +43,13 @@ router.post("/payment", async (req, res) => {
 			confirm: true
 		}); 
 
-		const updateDundie = await Dundie.findByIdAndUpdate(dundie._id, 
+		await Dundie.findByIdAndUpdate(dundie._id, 
 		 {currency: payment.currency, paid: payment.created}
 		)
+
+		// check the payment object
         console.log(payment);
+		
 		res.json({
 			message: "Payment successful",
 			success: true

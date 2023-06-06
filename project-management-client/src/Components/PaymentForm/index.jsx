@@ -1,6 +1,6 @@
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import axios from "axios";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 
 const CARD_OPTIONS = {
@@ -43,16 +43,17 @@ function PaymentForm(props) {
 
     if(!error) {
         try {
+            // payment Method Id
             const {id} = paymentMethod
             console.log(dundie);
             const response = await axios.post("http://localhost:5005/payment", {
+                // defines the price in cents (500 = 5EUR)
                 amount: 500,
                 id,
                 dundie
             })
 
             if(response.data.success) {
-                console.log("Successful payment")
                 setSuccess(true)
             }
 
@@ -82,7 +83,7 @@ useEffect(()=> {
         </form>
         :
        <div>
-           <h2>You just bought an incredible Poster of Chico Macareu. Congrats!</h2>
+           <h2>You just bought an incredible Dundie. Congrats!</h2>
        </div> 
         }
             
