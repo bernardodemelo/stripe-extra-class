@@ -13,7 +13,6 @@ Payment Methods Class done with Stripe / Stripe Elements. Workshop/lesson for Ap
 </p>
 
 ### Instructions
-<br>
 <ol>
   <li> Go to <a href="https://stripe.com">Stripe Homepage</a> and Sign Up.</li>
   <li> Once you've registered, go to Stripe's API Keys Section and copy Publishable and Secret Keys.</li>
