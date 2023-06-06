@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "647e6defd7e0271c686ad6ef"
+  },
+  "name": "Hottest in the Office",
+  "description": "Goes to Ryan."
+},{
+  "_id": {
+    "$oid": "647e6f72d7e0271c686ad6f0"
+  },
+  "name": "Whitest Sneakers",
+  "description": "Goes to Pam."
+}]
