@@ -7,9 +7,10 @@ Payment Methods Class done with Stripe / Stripe Elements. Workshop/lesson for Ap
 <br>
 
 ### Instructions 
-<div style="display:flex; justify-content: center; align-items: center;">
+<p align="center">
 <img src="https://media.tenor.com/qPZM6yp3Y6wAAAAC/the-office-michael-scott.gif">
-</div>
+</p>
+<br>
 <ol>
   <li> Go to <a href="https://stripe.com">Stripe Homepage</a> and Sign Up.</li>
   <li> Once you've registered, go to Stripe's API Keys Section and copy Publishable and Secret Keys.</li>
