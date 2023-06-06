@@ -6,7 +6,7 @@ import {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 
 // Public Key to be published 
-const PUBLIC_KEY = ""
+const PUBLIC_KEY = "TO FILL WITH YOUR PUBLISHABLE KEY"
 
 const stripeTestPromise = loadStripe(PUBLIC_KEY);
 
