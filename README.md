@@ -5,6 +5,7 @@ Payment Methods Class done with Stripe / Stripe Elements. Workshop/lesson for Ap
 <a href="https://ironhack.com">Ironhack</a> Tech School focused on Web-development, UX/UI Design & Data Analytics bootcamps.
 
 <br>
+<br>
 
 <p align="center">
 <img src="https://media.tenor.com/qPZM6yp3Y6wAAAAC/the-office-michael-scott.gif">
