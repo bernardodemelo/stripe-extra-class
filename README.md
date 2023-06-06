@@ -6,7 +6,7 @@ Payment Methods Class done with Stripe / Stripe Elements. Workshop/lesson for Ap
 
 <br>
 
-### Instructions 
+### <p align="center">Instructions</p>
 <p align="center">
 <img src="https://media.tenor.com/qPZM6yp3Y6wAAAAC/the-office-michael-scott.gif">
 </p>
